@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="Test(failed)">
+    <classes>
+      <class name="com.acttime.usertest.UserTest">
+        <methods>
+          <include name="createUserTest"/>
+          <include name="afterMtd"/>
+          <include name="configBeforeClass"/>
+          <include name="modifyUSerTest"/>
+          <include name="beforMtd"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- com.acttime.usertest.UserTest -->
+      <class name="com.actime.reporttest.ReportTest">
+        <methods>
+          <include name="afterClass"/>
+          <include name="createReportTest"/>
+          <include name="modifyReportTest"/>
+          <include name="beforMtd"/>
+          <include name="deleteReportTest"/>
+          <include name="afterMtd"/>
+          <include name="configBeforeClass"/>
+        </methods>
+      </class> <!-- com.actime.reporttest.ReportTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

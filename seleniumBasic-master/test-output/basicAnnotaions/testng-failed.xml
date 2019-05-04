@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="3" guice-stage="DEVELOPMENT" name="Failed suite [basicAnnotaions]" parallel="classes">
+  <parameter name="password" value="password123"/>
+  <parameter name="userName" value="userName123"/>
+  <parameter name="Browser" value="chrome"/>
+  <test name="dependsOnTest(failed)" parallel="classes">
+    <classes>
+      <class name="testNG.GroupTest">
+        <methods>
+          <include name="setUP"/>
+        </methods>
+      </class> <!-- testNG.GroupTest -->
+      <class name="testNG.DependsOnTest">
+        <methods>
+          <include name="login"/>
+          <include name="logout"/>
+          <include name="test2"/>
+        </methods>
+      </class> <!-- testNG.DependsOnTest -->
+      <class name="testNG.Allannotaions">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="beforeMethod"/>
+          <include name="afterTest"/>
+          <include name="beforeSuite"/>
+          <include name="afterClass"/>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- testNG.Allannotaions -->
+    </classes>
+  </test> <!-- dependsOnTest(failed) -->
+</suite> <!-- Failed suite [basicAnnotaions] -->

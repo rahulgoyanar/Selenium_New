@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="65911" started-at="2018-10-25T07:57:26Z" finished-at="2018-10-25T07:58:32Z">
+    <groups>
+    </groups>
+    <test name="testng test" duration-ms="65911" started-at="2018-10-25T07:57:26Z" finished-at="2018-10-25T07:58:32Z">
+      <class name="Parallelchrome.parallel">
+        <test-method status="PASS" signature="getFirefox()[pri:0, instance:Parallelchrome.parallel@573f2bb1]" name="getFirefox" duration-ms="65837" started-at="2018-10-25T13:27:26Z" finished-at="2018-10-25T13:28:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getFirefox -->
+      </class> <!-- Parallelchrome.parallel -->
+      <class name="Parallelfirefox.parallelchrm">
+        <test-method status="PASS" signature="getChorme()[pri:0, instance:Parallelfirefox.parallelchrm@32e6e9c3]" name="getChorme" duration-ms="23959" started-at="2018-10-25T13:27:26Z" finished-at="2018-10-25T13:27:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getChorme -->
+      </class> <!-- Parallelfirefox.parallelchrm -->
+    </test> <!-- testng test -->
+  </suite> <!-- Suite -->
+</testng-results>

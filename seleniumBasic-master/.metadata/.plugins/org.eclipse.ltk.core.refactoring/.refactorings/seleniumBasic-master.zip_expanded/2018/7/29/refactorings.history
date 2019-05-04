@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;seleniumBasic-master.zip_expanded/seleniumBasic-master/drivers/geckodriver&apos; to &apos;geckodriver.exe&apos;" description="Rename resource &apos;geckodriver&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="seleniumBasic-master/drivers/geckodriver" name="geckodriver.exe" stamp="1532200556004" updateReferences="true"/>
+</session>

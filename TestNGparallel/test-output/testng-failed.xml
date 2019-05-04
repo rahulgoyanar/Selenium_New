@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" name="Failed suite [Suite]" parallel="classes">
+  <test name="testng test(failed)" parallel="classes">
+    <classes>
+      <class name="Parallelfirefox.parallelchrm">
+        <methods>
+          <include name="getChorme"/>
+        </methods>
+      </class> <!-- Parallelfirefox.parallelchrm -->
+    </classes>
+  </test> <!-- testng test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
