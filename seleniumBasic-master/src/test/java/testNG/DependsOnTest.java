@@ -10,7 +10,7 @@ public class DependsOnTest {
 	@Test
 	public void login(){
 		System.out.println("(groups={sanity,regression})");
-		//Assert.assertTrue(false);
+		Assert.assertTrue(false);
 	}
 	@Test(dependsOnMethods={"login","logout"})
 	public void test2(){

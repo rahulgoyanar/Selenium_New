@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="119" started-at="2017-10-29T16:42:53Z" finished-at="2017-10-29T16:42:54Z">
+  <suite name="Default suite" duration-ms="31406" started-at="2019-10-06T08:35:52Z" finished-at="2019-10-06T08:36:23Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="119" started-at="2017-10-29T16:42:53Z" finished-at="2017-10-29T16:42:54Z">
-      <class name="seleniumfile.Newfile">
-        <test-method status="PASS" signature="profile()[pri:0, instance:seleniumfile.Newfile@685cb137]" name="profile" duration-ms="41" started-at="2017-10-29T22:12:53Z" finished-at="2017-10-29T22:12:54Z">
+    <test name="Default test" duration-ms="31406" started-at="2019-10-06T08:35:52Z" finished-at="2019-10-06T08:36:23Z">
+      <class name="seleniumfile.Dynamicweb_table">
+        <test-method status="PASS" signature="webtabletest()[pri:0, instance:seleniumfile.Dynamicweb_table@42e26948]" name="webtabletest" duration-ms="31386" started-at="2019-10-06T14:05:52Z" finished-at="2019-10-06T14:06:23Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- profile -->
-      </class> <!-- seleniumfile.Newfile -->
+        </test-method> <!-- webtabletest -->
+      </class> <!-- seleniumfile.Dynamicweb_table -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

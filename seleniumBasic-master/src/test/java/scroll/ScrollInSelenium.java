@@ -14,7 +14,7 @@ public class ScrollInSelenium {
 	@Test
 	public void scrollInSelenium() throws InterruptedException {
 		// for Mac OS
-		System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir") + "/drivers/chromedriver");
+		System.setProperty("webdriver.chrome.driver", "F://chromedriver.exe");
 		// For Window OS
 		// System.setProperty("webdriver.gecko.driver",System.getProperty("user.dir") + "/drivers/chromedriver.exe");
 		driver = new ChromeDriver();

@@ -3,11 +3,11 @@
 <suite thread-count="2" name="Failed suite [Suite]" parallel="classes">
   <test name="testng test(failed)" parallel="classes">
     <classes>
-      <class name="Parallelfirefox.parallelchrm">
+      <class name="Parallelchrome.parallel">
         <methods>
-          <include name="getChorme"/>
+          <include name="getFirefox"/>
         </methods>
-      </class> <!-- Parallelfirefox.parallelchrm -->
+      </class> <!-- Parallelchrome.parallel -->
     </classes>
   </test> <!-- testng test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

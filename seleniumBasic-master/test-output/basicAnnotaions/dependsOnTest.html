@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>dependsOnTest</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>1/1/1</td>
+<td>Tests passed/Failed/Skipped:</td><td>0/1/2</td>
 </tr><tr>
-<td>Started on:</td><td>Fri Nov 23 23:23:43 IST 2018</td>
+<td>Started on:</td><td>Fri Nov 22 23:18:48 IST 2019</td>
 </tr>
-<tr><td>Total time:</td><td>0 seconds (57 ms)</td>
+<tr><td>Total time:</td><td>0 seconds (51 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -75,19 +75,19 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='testNG.DependsOnTest.logout()'><b>logout</b><br>Test class: testNG.DependsOnTest</td>
+<td title='testNG.DependsOnTest.login()'><b>login</b><br>Test class: testNG.DependsOnTest</td>
 <td><div><pre>java.lang.AssertionError: expected [true] but found [false]
-	at testNG.DependsOnTest.logout(DependsOnTest.java:23)
+	at testNG.DependsOnTest.login(DependsOnTest.java:13)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
 	at java.lang.Thread.run(Thread.java:745)
-... Removed 14 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1362859950", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1362859950'><pre>java.lang.AssertionError: expected [true] but found [false]
+... Removed 14 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1118792080", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1118792080'><pre>java.lang.AssertionError: expected [true] but found [false]
 	at org.testng.Assert.fail(Assert.java:94)
 	at org.testng.Assert.failNotEquals(Assert.java:496)
 	at org.testng.Assert.assertTrue(Assert.java:42)
 	at org.testng.Assert.assertTrue(Assert.java:52)
-	at testNG.DependsOnTest.logout(DependsOnTest.java:23)
+	at testNG.DependsOnTest.login(DependsOnTest.java:13)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -105,19 +105,6 @@ function toggleAllBoxes() {
 <td>0</td>
 <td>testNG.DependsOnTest@23e028a9</td></tr>
 </table><p>
-<table width='100%' border='1' class='invocation-passed'>
-<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
-<tr><td><b>Test method</b></td>
-<td width="30%"><b>Exception</b></td>
-<td width="10%"><b>Time (seconds)</b></td>
-<td><b>Instance</b></td>
-</tr>
-<tr>
-<td title='testNG.DependsOnTest.login()'><b>login</b><br>Test class: testNG.DependsOnTest</td>
-<td></td>
-<td>0</td>
-<td>testNG.DependsOnTest@23e028a9</td></tr>
-</table><p>
 <table width='100%' border='1' class='invocation-skipped'>
 <tr><td colspan='4' align='center'><b>SKIPPED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
@@ -126,13 +113,30 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
+<td title='testNG.DependsOnTest.logout()'><b>logout</b><br>Test class: testNG.DependsOnTest</td>
+<td><div><pre>java.lang.Throwable: Method DependsOnTest.logout()[pri:0, instance:testNG.DependsOnTest@23e028a9] depends on not successfully finished methods
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+... Removed 3 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace340384727", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace340384727'><pre>java.lang.Throwable: Method DependsOnTest.logout()[pri:0, instance:testNG.DependsOnTest@23e028a9] depends on not successfully finished methods
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1033)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+</pre></div></td>
+<td>0</td>
+<td>null</td></tr>
+<tr>
 <td title='testNG.DependsOnTest.test2()'><b>test2</b><br>Test class: testNG.DependsOnTest</td>
 <td><div><pre>java.lang.Throwable: Method DependsOnTest.test2()[pri:0, instance:testNG.DependsOnTest@23e028a9] depends on not successfully finished methods
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
 	at java.lang.Thread.run(Thread.java:745)
-... Removed 3 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1597018364", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1597018364'><pre>java.lang.Throwable: Method DependsOnTest.test2()[pri:0, instance:testNG.DependsOnTest@23e028a9] depends on not successfully finished methods
+... Removed 3 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace394648669", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace394648669'><pre>java.lang.Throwable: Method DependsOnTest.test2()[pri:0, instance:testNG.DependsOnTest@23e028a9] depends on not successfully finished methods
 	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1033)
 	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
 	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
